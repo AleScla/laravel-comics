@@ -79,6 +79,10 @@
                         </li>
                     @endfor
                 </ul>
+
+                <div class="logo-container">
+                    <img src="/images/dc-logo-bg.png">
+                </div>
             </div>
 
 

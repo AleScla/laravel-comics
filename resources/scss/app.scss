@@ -106,6 +106,8 @@ footer{
     #footer-top{
         background-image:url('/images/footer-bg.jpg');
         background-size:cover;
+        overflow:hidden;
+
         ul{
             list-style:none;
             padding:0;
@@ -119,9 +121,13 @@ footer{
             }
         }
         .col-8{
-            background-image:url('/images/dc-logo-bg.png');
-            background-repeat:no-repeat;
-            background-position:center;
+            position:relative;
+            .logo-container{
+                position:absolute;
+                right:0;
+                top:-40%;
+
+            }
         }
         .row{
             .col-12{
