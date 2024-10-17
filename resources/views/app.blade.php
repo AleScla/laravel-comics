@@ -24,7 +24,6 @@
 
         @include('partials.footer')
 
-        {{-- JS da importare nel body --}}
-        @yield('body-imports')
+        
     </body>
 </html>

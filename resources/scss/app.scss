@@ -102,3 +102,42 @@ main{
     }
 }
 
+footer{
+    #footer-top{
+        background-image:url('/images/footer-bg.jpg');
+        background-size:cover;
+        ul{
+            list-style:none;
+            padding:0;
+            li{
+                color:white;
+                a{
+                    color:#8d8d8d;
+                    text-decoration:none;
+                    font-size:0.9rem;
+                }
+            }
+        }
+        .col-8{
+            background-image:url('/images/dc-logo-bg.png');
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .row{
+            .col-12{
+                font-size:0.9rem;
+                p{
+                    color:#8d8d8d;
+                    a{
+                        text-decoration:none;
+                    }
+                }
+                a{
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+}
+
+
