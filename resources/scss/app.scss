@@ -1,3 +1,39 @@
 @import "~bootstrap/scss/bootstrap";
 
+#links{
+    background-color:#0282F9;
+
+}
+header{
+    span{
+        a{
+            font-weight:bold;
+            font-size:0.9rem;
+        }
+    }
+    .my-navbar{
+        ul{
+            list-style:none;
+            li{
+                a{
+                    color:#464646;
+                    font-weight:600;
+                }
+                .link-border{
+                    border-bottom:3px solid #0282F9;
+                    color:#0282F9;
+                }
+            }
+            .my-searchbar{
+                input{
+                    border:none;
+                    border-bottom: 2px solid #0282F9;
+                    font-weight:600;
+                    text-align:end;
+                }
+
+            }
+        }
+    }
+}
 
